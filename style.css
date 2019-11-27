@@ -1,0 +1,28 @@
+div.app-container{
+    width: 100%;
+}
+
+#user-wrap{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    vertical-align: top;
+}
+#crm-wrap{
+    display: inline-block;
+    width: 67%;
+    padding: 10px;
+    vertical-align: top;
+}
+div.user-list-item{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+img.profile-img{
+    width:20px;
+    height:20px;
+    margin-left: auto;
+    margin-right: 0;
+}

@@ -1,0 +1,264 @@
+----------------\n1576245279\nArray
+(
+    [workflow_id] => 5df3981e5e13c8.97292400
+    [code] => user_contact_deals
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT_2
+        )
+
+    [document_type] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT
+        )
+
+    [event_token] => 5df3981e5e13c8.97292400|A71358_59994_27194_62270|sG9FuT3UGSNK0DjJKW0jWE7W0FdI7G76.a749d537d89eb349319863e0e140ca414e3e80f620c84881a1fc25115de18dbc
+    [properties] => Array
+        (
+            [contactId] => 2
+        )
+
+    [use_subscription] => Y
+    [timeout_duration] => 3
+    [ts] => 1576245278
+    [auth] => Array
+        (
+            [access_token] => 2ea6f35d0042ed1c004285ae000000010000009296edfe633e1dde200fa96a46dac66a
+            [expires] => 1576248878
+            [expires_in] => 3600
+            [scope] => crm,bizproc
+            [domain] => b24-9o75oa.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://b24-9o75oa.bitrix24.ru/rest/
+            [member_id] => afac46a28ac8f6f1f41202e2d3c52448
+            [user_id] => 1
+            [refresh_token] => 1e251b5e0042ed1c004285ae000000010000004615bb00ce1483e3b26d0b200077ba2a
+            [application_token] => 354349b5da9490b3d993f735425b574f
+        )
+
+)
+----------------\n1576245280\nArray
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2
+                    [STAGE_ID] => PREPARATION
+                    [CLOSED] => N
+                    [OPPORTUNITY] => 1000.00
+                )
+
+        )
+
+    [total] => 1
+    [time] => Array
+        (
+            [start] => 1576245279.9557
+            [finish] => 1576245280.1342
+            [duration] => 0.17847800254822
+            [processing] => 0.020587921142578
+            [date_start] => 2019-12-13T16:54:39+03:00
+            [date_finish] => 2019-12-13T16:54:40+03:00
+        )
+
+)
+----------------\n1576245372\nArray
+(
+    [workflow_id] => 5df3987ad21612.66755613
+    [code] => user_contact_deals
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT_2
+        )
+
+    [document_type] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT
+        )
+
+    [event_token] => 5df3987ad21612.66755613|A71358_59994_27194_62270|frBh67FoEJ1uV7b3qAxKmXf5sJkR4xKH.b86f3ce953b6fd9c97a0c6bdeb6be83c1b23ee7137a7b439892d756a790f0cbd
+    [properties] => Array
+        (
+            [contactId] => 2
+        )
+
+    [use_subscription] => Y
+    [timeout_duration] => 3
+    [ts] => 1576245370
+    [auth] => Array
+        (
+            [access_token] => 8ba6f35d0042ed1c004285ae000000010000000bec3a2dfa5ed1308d12ed6474dad4d4
+            [expires] => 1576248971
+            [expires_in] => 3600
+            [scope] => crm,bizproc
+            [domain] => b24-9o75oa.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://b24-9o75oa.bitrix24.ru/rest/
+            [member_id] => afac46a28ac8f6f1f41202e2d3c52448
+            [user_id] => 1
+            [refresh_token] => 7b251b5e0042ed1c004285ae000000010000008255a9e4887f58762fa135826200b758
+            [application_token] => 354349b5da9490b3d993f735425b574f
+        )
+
+)
+----------------\n1576245372\nArray
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2
+                    [STAGE_ID] => PREPARATION
+                    [CLOSED] => N
+                    [OPPORTUNITY] => 1000.00
+                )
+
+        )
+
+    [total] => 1
+    [time] => Array
+        (
+            [start] => 1576245372.3701
+            [finish] => 1576245372.5558
+            [duration] => 0.18572211265564
+            [processing] => 0.014278888702393
+            [date_start] => 2019-12-13T16:56:12+03:00
+            [date_finish] => 2019-12-13T16:56:12+03:00
+        )
+
+)
+----------------\n1576246322\nArray
+(
+    [workflow_id] => 5df39c30a3da06.65571637
+    [code] => user_contact_deals
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT_2
+        )
+
+    [document_type] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT
+        )
+
+    [event_token] => 5df39c30a3da06.65571637|A71358_59994_27194_62270|d6b0FQZDuwk3uOvX6RE7elJkxhkfmOyf.f7eaca90ff5cdd73edd74ffd9a8cddc4a2fa9edbee4eef965a790e7d0d7055a8
+    [properties] => Array
+        (
+            [contactId] => 2
+        )
+
+    [use_subscription] => Y
+    [timeout_duration] => 3
+    [ts] => 1576246320
+    [auth] => Array
+        (
+            [access_token] => 40aaf35d0042ed1c004285ae00000001000000822898cdba53e54035c31eb12510a6b4
+            [expires] => 1576249920
+            [expires_in] => 3600
+            [scope] => crm,bizproc
+            [domain] => b24-9o75oa.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://b24-9o75oa.bitrix24.ru/rest/
+            [member_id] => afac46a28ac8f6f1f41202e2d3c52448
+            [user_id] => 1
+            [refresh_token] => 30291b5e0042ed1c004285ae000000010000004c6c4da7ce28552f8766d1c38e2677dc
+            [application_token] => 354349b5da9490b3d993f735425b574f
+        )
+
+)
+----------------\n1576246322\nArray
+(
+    [result] => Array
+        (
+        )
+
+    [total] => 0
+    [time] => Array
+        (
+            [start] => 1576246322.3723
+            [finish] => 1576246322.6429
+            [duration] => 0.27052092552185
+            [processing] => 0.043251991271973
+            [date_start] => 2019-12-13T17:12:02+03:00
+            [date_finish] => 2019-12-13T17:12:02+03:00
+        )
+
+)
+----------------\n1576246370\nArray
+(
+    [workflow_id] => 5df39c609e33c6.66868596
+    [code] => user_contact_deals
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT_2
+        )
+
+    [document_type] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentContact
+            [2] => CONTACT
+        )
+
+    [event_token] => 5df39c609e33c6.66868596|A71358_59994_27194_62270|z0ZL8gJx1iikgYKBWFbtvrZgdkwIokQK.0a850e3412607784e045b9ef7d8793265c75e43b84835a8dd162829f080a662a
+    [properties] => Array
+        (
+            [contactId] => 2
+        )
+
+    [use_subscription] => Y
+    [timeout_duration] => 3
+    [ts] => 1576246368
+    [auth] => Array
+        (
+            [access_token] => 70aaf35d0042ed1c004285ae000000010000007a9cbfc23bc6dc59a9964b514c00e629
+            [expires] => 1576249968
+            [expires_in] => 3600
+            [scope] => crm,bizproc
+            [domain] => b24-9o75oa.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://b24-9o75oa.bitrix24.ru/rest/
+            [member_id] => afac46a28ac8f6f1f41202e2d3c52448
+            [user_id] => 1
+            [refresh_token] => 60291b5e0042ed1c004285ae000000010000007a900c1f0a039cb6170256695b75d328
+            [application_token] => 354349b5da9490b3d993f735425b574f
+        )
+
+)
+----------------\n1576246370\nArray
+(
+    [result] => Array
+        (
+        )
+
+    [total] => 0
+    [time] => Array
+        (
+            [start] => 1576246370.1968
+            [finish] => 1576246370.3668
+            [duration] => 0.17002487182617
+            [processing] => 0.016479969024658
+            [date_start] => 2019-12-13T17:12:50+03:00
+            [date_finish] => 2019-12-13T17:12:50+03:00
+        )
+
+)

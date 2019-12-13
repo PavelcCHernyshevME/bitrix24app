@@ -1,0 +1,161 @@
+----------------\n1576242465\nArray
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2
+                    [TITLE] => первая сделка
+                    [TYPE_ID] => SALE
+                    [STAGE_ID] => PREPARATION
+                    [PROBABILITY] => 
+                    [CURRENCY_ID] => RUB
+                    [OPPORTUNITY] => 1000.00
+                    [TAX_VALUE] => 
+                    [LEAD_ID] => 
+                    [COMPANY_ID] => 0
+                    [CONTACT_ID] => 2
+                    [QUOTE_ID] => 
+                    [BEGINDATE] => 2019-11-27T03:00:00+03:00
+                    [CLOSEDATE] => 2019-12-04T03:00:00+03:00
+                    [ASSIGNED_BY_ID] => 1
+                    [CREATED_BY_ID] => 1
+                    [MODIFY_BY_ID] => 1
+                    [DATE_CREATE] => 2019-11-27T14:26:11+03:00
+                    [DATE_MODIFY] => 2019-12-02T11:04:54+03:00
+                    [OPENED] => Y
+                    [CLOSED] => N
+                    [COMMENTS] => 
+                    [ADDITIONAL_INFO] => 
+                    [LOCATION_ID] => 
+                    [CATEGORY_ID] => 0
+                    [STAGE_SEMANTIC_ID] => P
+                    [IS_NEW] => N
+                    [IS_RECURRING] => N
+                    [IS_RETURN_CUSTOMER] => N
+                    [IS_REPEATED_APPROACH] => N
+                    [SOURCE_ID] => 
+                    [SOURCE_DESCRIPTION] => 
+                    [ORIGINATOR_ID] => 
+                    [ORIGIN_ID] => 
+                    [UTM_SOURCE] => 
+                    [UTM_MEDIUM] => 
+                    [UTM_CAMPAIGN] => 
+                    [UTM_CONTENT] => 
+                    [UTM_TERM] => 
+                )
+
+            [1] => Array
+                (
+                    [ID] => 4
+                    [TITLE] => Покупка ПО
+                    [TYPE_ID] => SALE
+                    [STAGE_ID] => PREPARATION
+                    [PROBABILITY] => 
+                    [CURRENCY_ID] => RUB
+                    [OPPORTUNITY] => 8000.00
+                    [TAX_VALUE] => 0.00
+                    [LEAD_ID] => 
+                    [COMPANY_ID] => 0
+                    [CONTACT_ID] => 4
+                    [QUOTE_ID] => 
+                    [BEGINDATE] => 2019-12-02T03:00:00+03:00
+                    [CLOSEDATE] => 2019-12-09T03:00:00+03:00
+                    [ASSIGNED_BY_ID] => 1
+                    [CREATED_BY_ID] => 1
+                    [MODIFY_BY_ID] => 1
+                    [DATE_CREATE] => 2019-12-02T10:15:23+03:00
+                    [DATE_MODIFY] => 2019-12-02T10:15:23+03:00
+                    [OPENED] => Y
+                    [CLOSED] => N
+                    [COMMENTS] => 
+                    [ADDITIONAL_INFO] => 
+                    [LOCATION_ID] => 
+                    [CATEGORY_ID] => 0
+                    [STAGE_SEMANTIC_ID] => P
+                    [IS_NEW] => N
+                    [IS_RECURRING] => N
+                    [IS_RETURN_CUSTOMER] => N
+                    [IS_REPEATED_APPROACH] => N
+                    [SOURCE_ID] => 
+                    [SOURCE_DESCRIPTION] => 
+                    [ORIGINATOR_ID] => 
+                    [ORIGIN_ID] => 
+                    [UTM_SOURCE] => 
+                    [UTM_MEDIUM] => 
+                    [UTM_CAMPAIGN] => 
+                    [UTM_CONTENT] => 
+                    [UTM_TERM] => 
+                )
+
+            [2] => Array
+                (
+                    [ID] => 6
+                    [TITLE] => Клавиатура
+                    [TYPE_ID] => SALE
+                    [STAGE_ID] => PREPAYMENT_INVOICE
+                    [PROBABILITY] => 
+                    [CURRENCY_ID] => RUB
+                    [OPPORTUNITY] => 15000.00
+                    [TAX_VALUE] => 0.00
+                    [LEAD_ID] => 
+                    [COMPANY_ID] => 0
+                    [CONTACT_ID] => 4
+                    [QUOTE_ID] => 
+                    [BEGINDATE] => 2019-12-02T03:00:00+03:00
+                    [CLOSEDATE] => 2019-12-09T03:00:00+03:00
+                    [ASSIGNED_BY_ID] => 1
+                    [CREATED_BY_ID] => 1
+                    [MODIFY_BY_ID] => 1
+                    [DATE_CREATE] => 2019-12-02T10:18:39+03:00
+                    [DATE_MODIFY] => 2019-12-02T10:18:48+03:00
+                    [OPENED] => Y
+                    [CLOSED] => N
+                    [COMMENTS] => 
+                    [ADDITIONAL_INFO] => 
+                    [LOCATION_ID] => 
+                    [CATEGORY_ID] => 0
+                    [STAGE_SEMANTIC_ID] => P
+                    [IS_NEW] => N
+                    [IS_RECURRING] => N
+                    [IS_RETURN_CUSTOMER] => N
+                    [IS_REPEATED_APPROACH] => N
+                    [SOURCE_ID] => 
+                    [SOURCE_DESCRIPTION] => 
+                    [ORIGINATOR_ID] => 
+                    [ORIGIN_ID] => 
+                    [UTM_SOURCE] => 
+                    [UTM_MEDIUM] => 
+                    [UTM_CAMPAIGN] => 
+                    [UTM_CONTENT] => 
+                    [UTM_TERM] => 
+                )
+
+        )
+
+    [total] => 3
+    [time] => Array
+        (
+            [start] => 1576242465.6715
+            [finish] => 1576242465.8474
+            [duration] => 0.1758770942688
+            [processing] => 0.020121097564697
+            [date_start] => 2019-12-13T16:07:45+03:00
+            [date_finish] => 2019-12-13T16:07:45+03:00
+        )
+
+)
+----------------\n1576242466\nArray
+(
+    [result] => 1
+    [time] => Array
+        (
+            [start] => 1576242465.9774
+            [finish] => 1576242466.0537
+            [duration] => 0.076326131820679
+            [processing] => 0.03190803527832
+            [date_start] => 2019-12-13T16:07:45+03:00
+            [date_finish] => 2019-12-13T16:07:46+03:00
+        )
+
+)

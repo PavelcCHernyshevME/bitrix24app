@@ -1,9 +1,9 @@
 function robote($handler) {
     var $params = {
-        'CODE': 'robot4',
+        'CODE': 'robot5',
         'AUTH_USER_ID': 1,
         'HANDLER': $handler,
-        'NAME': 'РОБОТ',
+        'NAME': 'РОБОТ v5',
         'PROPERTIES': {
             'name': {
                 'Name': {
@@ -20,6 +20,11 @@ function robote($handler) {
                     'ru': 'Тип группы'
                 },
                 'Type': 'select',
+                'Options': {
+                    'project': 'проект',
+                    'group_out': 'группа внешняя',
+                    'group_inner': 'группа внутренняя',
+                },
                 'Default': null
             },
             'group_head': {

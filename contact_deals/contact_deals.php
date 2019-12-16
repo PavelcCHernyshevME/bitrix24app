@@ -10,22 +10,32 @@ function add2log($data) {
 try {
     function send2b24($domen, $method, $data, $log = false)
     {
-        $url = 'https://' . $domen . '/rest/' . $method;
-        $fields = http_build_query($data);
-        $curl = curl_init();
-        curl_setopt_array($curl, [
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_POST => true,
-            CURLOPT_HEADER => false,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_URL => $url,
-            CURLOPT_POSTFIELDS => $fields,
-        ]);
-        $response = json_decode(curl_exec($curl), true);
-        if ($log) {
-            add2log($response);
-        }
-        return $response;
+        $res = [];
+        do {
+            $url = 'https://' . $domen . '/rest/' . $method;
+            $fields = http_build_query($data);
+            $curl = curl_init();
+            curl_setopt_array($curl, [
+                CURLOPT_SSL_VERIFYPEER => false,
+                CURLOPT_POST => true,
+                CURLOPT_HEADER => false,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_URL => $url,
+                CURLOPT_POSTFIELDS => $fields,
+            ]);
+            $querryResponce = json_decode(curl_exec($curl), true);
+            if ($log) {
+                add2log($querryResponce);
+            }
+            $res['result'] = array_merge((array)$res['result'], $querryResponce['result']);
+            $hasNext = $querryResponce['next'] > 0;
+            if ($hasNext && $querryResponce['next'] < $querryResponce['total']) {
+                $params['start'] = $querryResponce['next'];
+            } else {
+                $hasNext = false;
+            }
+        } while ($hasNext);
+        return $res;
     }
     if (($contactId = $_REQUEST['properties']['contactId']) > 0) {
 
@@ -74,7 +84,7 @@ try {
                 'PRICE'
             ]
         ];
-        
+
         $data = send2b24($_REQUEST['auth']['domain'], 'crm.invoice.list', $arParams, true);
         $sumNotPaidInvoice = 0;
         $sumPaidIncoice = 0;
